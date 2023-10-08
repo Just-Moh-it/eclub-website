@@ -2,6 +2,7 @@ import './globals.css'
 import { Inter } from 'next/font/google'
 import NavBar from './components/NavBar'
 import { Analytics } from '@vercel/analytics/react';
+import Footer from './components/Footer';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,10 +17,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" data-theme='dark'>
-      <body className={`${inter.className} w-11/12 mx-auto`}> 
+      <body className={`${inter.className}`}> 
         <NavBar></NavBar>
-        {children}
+        <main className=' w-11/12 mx-auto'>
+          {children}
+        </main>
         <Analytics></Analytics>
+        <Footer></Footer>
       </body>
     </html>
   )
