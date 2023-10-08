@@ -5,7 +5,7 @@ const Footer = () => {
     <div className="bg-primary text-white py-4">
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between">
         <div className="mb-4 md:mb-0">
-          <p className="text-lg font-semibold">Follow Us:</p>
+          <p className="text-lg font-semibold text-base-100">Follow Us:</p>
           <div className="flex space-x-4">
             <a
               href="https://www.instagram.com/eclub.vt"
@@ -13,7 +13,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="text-xl"
             >
-              <FaInstagram className='text-4xl' />
+              <FaInstagram className='text-4xl text-base-100' />
             </a>
             <a
               href="https://www.linkedin.com/company/vteclub/"
@@ -21,7 +21,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="text-xl"
             >
-              <FaLinkedin className='text-4xl' />
+              <FaLinkedin className='text-4xl text-base-100' />
             </a>
           </div>
         </div>

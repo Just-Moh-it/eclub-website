@@ -25,6 +25,10 @@ main{
   cursor: pointer;
 }
 
+#logo{
+  border-radius: 0px;
+}
+
 .externalLink{
   cursor: pointer;
   color: #ffa836;

@@ -10,7 +10,7 @@ function NavBar() {
       <div className='navbar w-full mb-10'>
         <div className="w-full">
             <Link href='/'>
-               <Image className='inline' src={logo} alt="Entreprenership Club" width={'40'} />
+               <Image className='inline' id="logo" src={logo} alt="Entreprenership Club" width={'40'} />
                <span className='inline ml-4 text-xl text-primary'>Entrepreneurship Club</span>
             </Link>
         </div>
@@ -31,7 +31,7 @@ function NavBar() {
   return (
     <div className='navbar mb-10 p-2 pb-6 w-11/12 mx-auto'>
         <Link href='/'>
-            <Image className='w-16' src={logo} alt="" />
+            <Image className='w-16' id="logo" src={logo} alt="" />
             <span className="text-3xl ml-10 text-primary">Entrepreneurship Club</span>
         </Link>
         
