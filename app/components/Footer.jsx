@@ -13,7 +13,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="text-xl"
             >
-              <FaInstagram className='text-3xl' />
+              <FaInstagram className='text-4xl' />
             </a>
             <a
               href="https://www.linkedin.com/company/vteclub/"
@@ -21,7 +21,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="text-xl"
             >
-              <FaLinkedin className='text-3xl' />
+              <FaLinkedin className='text-4xl' />
             </a>
           </div>
         </div>
