@@ -21,7 +21,9 @@ function NavBar() {
             <ul className="float-right shadow menu dropdown-content bg-base-100 rounded-box mt-10">
                 {/* <li> <Link className='text-right float-right' to={'/about'}>Events</Link> </li> */}
                 <li> <Link className='text-right float-right' href='/leadership'>Leadership</Link> </li>
-                {/* <li><Link className='text-xl ml-20' to='/contact'>Contact</Link></li> */}
+                <li>
+                  <Link className='text-secondary font-semibold' href='/startupsprint'>Startup Sprint</Link>
+                </li>
             </ul>
         </details>
                 
@@ -37,7 +39,7 @@ function NavBar() {
         
         {/* <Link className='text-xl ml-20' to='/events'>Events</Link> */}
         <Link className='text-xl ml-20' href='/leadership'>Leadership</Link>
-        {/* <Link className='text-xl ml-20' to='/contact'>Contact</Link> */}
+        <Link className='text-xl ml-20 text-secondary font-semibold' href='/startupsprint'>Startup Sprint</Link>
     </div>
   ) 
   }
