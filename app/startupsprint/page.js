@@ -44,8 +44,8 @@ function StartupSprint2023() {
 
               </div>
               <div className="lg:w-1/2 lg:mx-auto lg:float-right">
-                  <h2 className='text-3xl font-semibold'>Apply</h2>
-
+                  <h2 className='text-3xl font-semibold'> ✅ Register</h2>
+                  <div className='mt-4'>Note: If you have a team, ALL members should register.</div>
                   <Image src={applicationQR}></Image>
                   <Link className="btn btn-secondary btn-block mt-10" target={'_blank'} href='https://vt.startuptree.co/event/s/T8LLpTq56zfhzJAfPKxJRA/Startup-Sprint-2023-Registration' >
                     <BsLink45Deg className='text-2xl'></BsLink45Deg>
@@ -78,23 +78,22 @@ function StartupSprint2023() {
             <div className="w-full md:w-1/2 px-2 mb-4">
               <div className="p-6 border shadow-lg rounded-lg">
                 <h2 className="text-2xl font-bold mb-4 text-secondary">🌟 Why Should You Join?</h2>
-                <ul className="list-disc">
-                  <li className='text-xl'>
+                
+                  <div className='text-xl mt-4'>
                       <span className="font-semibold text-primary">Hands-On Experience:</span> You're going to be dropped into a fast-paced environment where you'll have to identify a problem, deploy a solution, and craft a business model.
-                  </li>
-                  <li className='text-xl'>
-                      <span className="font-semibold text-primary">Teamwork:</span> Form teams with diverse skill sets and learn the art of collaboration.
-                  </li>
-                  <li className='text-xl'>
-                      <span className="font-semibold text-primary">Skill Development:</span> Learn to use hyper-modern technologies with workshops led by industry partners.
-                  </li>
-                  <li className='text-xl'>
+                  </div>
+                  <div className='text-xl mt-4'>
+                      <span className="font-semibold text-primary">Workshops:</span> Learn business model creation and Arweave blockchain development from faculty and industry partners.
+                  </div>
+                  <div className='text-xl mt-4'>
+                      <span className="font-semibold text-primary">Skill Development:</span> Learn to use hyper-modern technologies and apply them to a practical problem.
+                  </div>
+                  <div className='text-xl mt-4'>
                       <span className="font-semibold text-primary">Win $$$:</span> Impress our panel of judges and secure capital. There is over <span className="text-secondary">$5000</span> in prize money!
-                  </li>
-                  <li className='text-xl'>
+                  </div>
+                  <div className='text-xl mt-4'>
                       <span className="font-semibold text-primary">Boost Your Resume:</span> Add this exciting experience to your resume.
-                  </li>
-              </ul>
+                  </div>
   
               </div>
             </div>
