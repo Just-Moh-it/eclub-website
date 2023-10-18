@@ -19,10 +19,14 @@ function NavBar() {
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-5 h-5 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg>
             </summary>
             <ul className="float-right shadow menu dropdown-content bg-base-100 rounded-box mt-10">
-                {/* <li> <Link className='text-right float-right' to={'/about'}>Events</Link> </li> */}
-                <li> <Link className='text-right float-right' href='/leadership'>Leadership</Link> </li>
                 <li>
-                  <Link className='text-secondary font-semibold' href='/startupsprint'>Startup Sprint</Link>
+                   <Link className='text-right float-right' href='/leadership'>Leadership</Link> 
+                </li>
+                <li>
+                  <Link className='font-semibold' href='/events'>Events</Link>
+                </li>
+                <li>
+                  <Link className='text-secondary font-semibold ' href='/startupsprint'>Startup Sprint</Link>
                 </li>
             </ul>
         </details>
@@ -39,6 +43,7 @@ function NavBar() {
         
         {/* <Link className='text-xl ml-20' to='/events'>Events</Link> */}
         <Link className='text-xl ml-20' href='/leadership'>Leadership</Link>
+        <Link className='text-xl ml-20' href='/events'>Events</Link>
         <Link className='text-xl ml-20 text-secondary font-semibold' href='/startupsprint'>Startup Sprint</Link>
     </div>
   ) 
