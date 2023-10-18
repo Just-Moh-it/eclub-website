@@ -1,5 +1,5 @@
 
-import {BsFillExclamationOctagonFill, BsPeopleFill, BsFileCodeFill, BsLink45Deg} from 'react-icons/bs'
+import {BsFillExclamationOctagonFill, BsPeopleFill, BsFileCodeFill, BsLink45Deg, BsFillInfoCircleFill} from 'react-icons/bs'
 import Image from 'next/image'
 import sponsorsImg from './sponsors.png'
 import Link from 'next/link'
@@ -20,6 +20,10 @@ function StartupSprint2023() {
             Apex Center for Entrepreneurs, presents {' '}
             <span className="text-secondary">Startup Sprint</span> – your chance to turn innovative ideas into reality in just one week!
           </p>
+
+          <div className="alert alert-info mb-10">
+          <BsFillInfoCircleFill className='text-2xl'></BsFillInfoCircleFill>
+            Check on this page regularly for updates and new information.</div>
   
           <div className="shadow-lg border rounded-lg p-6 mb-10 lg:grid lg:grid-cols-2 ">
               <div className="lg:w-1/2">
