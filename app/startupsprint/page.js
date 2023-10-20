@@ -4,6 +4,7 @@ import Image from 'next/image'
 import sponsorsImg from './sponsors.png'
 import Link from 'next/link'
 import applicationQR from './application_qr_code.png'
+import CountdownTimer from './CountdownTimer'
 
 function StartupSprint2023() {
     return (
@@ -47,11 +48,12 @@ function StartupSprint2023() {
                   <br />
 
               </div>
-              <div className="lg:w-1/2 lg:mx-auto lg:float-right">
+              <div className=" lg:mx-auto lg:float-right">
                   <h2 className='text-3xl font-semibold'> ✅ Register</h2>
-                  <div className='mt-4'>Note: If you have a team, ALL members should register.</div>
-                  <Image src={applicationQR}></Image>
-                  <Link className="btn btn-secondary btn-block mt-10" target={'_blank'} href='https://vt.startuptree.co/event/s/T8LLpTq56zfhzJAfPKxJRA/Startup-Sprint-2023-Registration' >
+                  <CountdownTimer></CountdownTimer>
+                  <div className='mt-4 text-xl text-error'>Note: If you have a team, ALL members should register.</div>
+                  <Image className='lg:w-1/2' src={applicationQR}></Image>
+                  <Link className="btn btn-secondary btn-block mt-10 lg:w-1/2" target={'_blank'} href='https://vt.startuptree.co/event/s/T8LLpTq56zfhzJAfPKxJRA/Startup-Sprint-2023-Registration' >
                     <BsLink45Deg className='text-2xl'></BsLink45Deg>
                     Register
                   </Link>
