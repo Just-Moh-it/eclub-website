@@ -27,7 +27,19 @@ function StartupSprint2023() {
             Check on this page regularly for updates and new information.</div>
   
           <div className="shadow-lg border rounded-lg p-6 mb-10 lg:grid lg:grid-cols-2 ">
-              <div className="lg:w-1/2">
+            
+              <div className="lg:mx-auto">
+                  <h2 className='text-3xl font-semibold'> ✅ Register</h2>
+                  <CountdownTimer></CountdownTimer>
+                  <div className='mt-4 text-xl text-error'>Note: If you have a team, ALL members should register.</div>
+                  <Image className='lg:w-1/2' src={applicationQR}></Image>
+                  <Link className="btn btn-secondary btn-block mt-10 lg:w-1/2" target={'_blank'} href='https://forms.gle/82jP5SR23r8Aze3p8' >
+                    <BsLink45Deg className='text-2xl'></BsLink45Deg>
+                    Register
+                  </Link>
+              </div>
+
+              <div className="lg:w-1/2 mt-10 lg:mt-0">
                   <h2 className="text-3xl font-semibold mb-2">📅  Event Dates</h2>
                   <br />
                   
@@ -46,18 +58,8 @@ function StartupSprint2023() {
                   <h3 className="text-2xl font-semibold text-secondary">Final Pitch Day:</h3>
                   <p className='text-xl'>Wednesday November 15th at the Apex Center</p>
                   <br />
+              </div>
 
-              </div>
-              <div className=" lg:mx-auto lg:float-right">
-                  <h2 className='text-3xl font-semibold'> ✅ Register</h2>
-                  <CountdownTimer></CountdownTimer>
-                  <div className='mt-4 text-xl text-error'>Note: If you have a team, ALL members should register.</div>
-                  <Image className='lg:w-1/2' src={applicationQR}></Image>
-                  <Link className="btn btn-secondary btn-block mt-10 lg:w-1/2" target={'_blank'} href='https://vt.startuptree.co/event/s/T8LLpTq56zfhzJAfPKxJRA/Startup-Sprint-2023-Registration' >
-                    <BsLink45Deg className='text-2xl'></BsLink45Deg>
-                    Register
-                  </Link>
-              </div>
            </div>
 
           <div className="flex flex-wrap">

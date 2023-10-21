@@ -1,4 +1,4 @@
-import startup_sprint_flyer from './startup_sprint.png'
+import startup_sprint_flyer from './startup_sprint.jpg'
 import meet_the_founders from './meet_founders.jpg'
 import women_in_eship from './women_in_eship.png'
 import Image from 'next/image'

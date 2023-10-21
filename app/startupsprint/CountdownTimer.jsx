@@ -32,12 +32,12 @@ const CountdownTimer = () => {
   }, []);
 
   return (
-    <div className='alert lg:w-3/4 mt-4'>
+    <div className='bg-base-200 rounded-lg p-4 lg:w-3/4 mt-4 border'>
       <span className='text-xl text-error font-bold'>{timeLeft.days} days </span>
       <span className='text-xl text-error font-bold'>{timeLeft.hours} hours </span>
       <span className='text-xl text-error font-bold'>{timeLeft.minutes} minutes </span>
       <span className='text-xl text-error font-bold'>{timeLeft.seconds} seconds </span>
-      <span className='text-xl font-bold'>left to apply</span>
+      <span className='text-xl font-bold'>  left to apply</span>
     </div>
   );
 };
