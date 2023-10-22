@@ -69,11 +69,10 @@ function StartupSprint2023() {
                 💡 What is Startup Sprint?
                 </h2>
                 <p className='text-xl'>
-                  The Virginia Tech Startup Sprint is an exhilarating week-long event
-                  where students from all backgrounds come together to build innovative
-                  solutions to real-world problems. Whether you're a coding whiz, a
-                  marketing guru, a design genius, or just bursting with entrepreneurial
-                  spirit, this is your chance to shine!
+                  Startup Sprint is an event designed to get you to ideate, problem solve, and deploy a 
+                  startup with speed. There will be food, swag, cash prizes, and workshops for technical and business
+                   skill sets. Network with industry experts, local startups, mentors, and have fun 
+                   with building your ideas!
                 </p>
                 <br />
                 <p className='text-xl'>You will have one week to <span className='text-secondary'>identify a problem</span>, build a 
@@ -122,7 +121,9 @@ function StartupSprint2023() {
                     <div className="text-xl inline-block mb-4">
                         <h3 className='text-2xl text-primary font-bold'>Can I apply with a startup or product I'm already working on?</h3>
                         <BsFillExclamationOctagonFill className='text-error text-2xl inline mr-4' />
-                        No previous work may be done before the event. Any evidence of prior work will result in disqualification. 
+                        No previous work may be done before the event. Any evidence of prior work will result in disqualification.
+                        You are free to funnel prize money into previous ventures however. But your submissions must be developed
+                        during the event and no earlier.
                     </div>
 
                     <div className="text-xl inline-block mb-4">
