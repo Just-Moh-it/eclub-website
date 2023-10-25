@@ -1,5 +1,5 @@
 
-import {BsFillExclamationOctagonFill, BsPeopleFill, BsFileCodeFill, BsLink45Deg, BsFillInfoCircleFill} from 'react-icons/bs'
+import {BsFillExclamationOctagonFill, BsPeopleFill, BsFileCodeFill, BsLink45Deg, BsFillInfoCircleFill, BsPersonFill} from 'react-icons/bs'
 import Image from 'next/image'
 import sponsorsImg from './sponsors.png'
 import Link from 'next/link'
@@ -132,11 +132,40 @@ function StartupSprint2023() {
                         You do not need a team to participate but you are encouraged to form teams of up to 4 people.
                     </div>
                     
-                    <div className="text-xl inline-block">
+                    <div className="text-xl inline-block mb-4">
                         <h3 className='text-2xl text-primary font-bold'>Do I need to know how to code?</h3>
                         <BsFileCodeFill className='text-error text-2xl inline mr-4' />
                         No you do not need to know how to code. You must still submit a product however, and this could
                         simply be a landing page made with Wix and a spreadsheet on your end.
+                    </div>
+
+
+                    <div className="text-xl inline-block mb-4">
+                        <h3 className='text-2xl text-primary font-bold'>Who should I contact if I have questions?</h3>
+                        <div>
+                          <BsPersonFill className='text-error text-2xl inline mr-4' />
+                          ebenezer@vt.edu
+                        </div>
+                        <div>
+                          <BsPersonFill className='text-error text-2xl inline mr-4' />
+                          htsours@vt.edu
+                        </div>
+                        <div>
+                          <BsPersonFill className='text-error text-2xl inline mr-4' />
+                          samuelr20@vt.edu
+                        </div>
+                        <div>
+                          <BsPersonFill className='text-error text-2xl inline mr-4' />
+                          mbutler23@vt.edu
+                        </div>
+                        <div>
+                          <BsPersonFill className='text-error text-2xl inline mr-4' />
+                          jeremiahhohn@vt.edu
+                        </div>
+                        <div>
+                          <BsPersonFill className='text-error text-2xl inline mr-4' />
+                          brodyemery11@vt.edu
+                        </div>
                     </div>
 
                 </div>
