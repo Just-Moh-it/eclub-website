@@ -44,15 +44,15 @@ function StartupSprint2023() {
                   <br />
                   
                   <h3 className="text-2xl font-semibold text-secondary">Application Deadline:</h3>
-                  <p className='text-xl'>Sunday November 5th 11:59pm</p>
+                  <p className='text-xl'>Sunday November 5th <span className="text-error font-bold">11:59PM</span></p>
                   <br />
 
-                  <h3 className="text-2xl font-semibold text-secondary">Startup Sprint Kickoff:</h3>
-                  <p className='text-xl'>Wednesday November 8th at the Apex Center</p>
+                  <h3 className="text-2xl font-semibold text-secondary">Kickoff and Opening Ceremony:</h3>
+                  <p className='text-xl'>Wednesday November 8th <span className="text-primary font-bold">6PM to 8PM</span> at the Apex Center</p>
                   <br />
 
                   <h3 className="text-2xl font-semibold text-secondary">Product Submission Deadline:</h3>
-                  <p className='text-xl'>Monday November 13th 8:00AM</p>
+                  <p className='text-xl'>Monday November 13th <span className="text-error font-bold">8:00AM</span></p>
                   <br />
 
                   <h3 className="text-2xl font-semibold text-secondary">Final Pitch Day:</h3>
