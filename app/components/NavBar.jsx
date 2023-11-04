@@ -10,8 +10,7 @@ function NavBar() {
       <div className='navbar w-full mb-10'>
         <div className="w-full">
             <Link href='/'>
-               <Image className='inline' id="logo" src={logo} alt="Entreprenership Club" width={'40'} />
-               <span className='inline ml-4 text-xl text-primary'>Entrepreneurship Club</span>
+               <Image className='inline' id="logo" src={logo} alt="Entreprenership Club" width={'130'} />
             </Link>
         </div>
         <details className="dropdown dropdown-end">
@@ -37,8 +36,7 @@ function NavBar() {
   return (
     <div className='navbar mb-10 p-2 pb-6 w-11/12 mx-auto'>
         <Link href='/'>
-            <Image className='w-16' id="logo" src={logo} alt="" />
-            <span className="text-3xl ml-10 text-primary">Entrepreneurship Club</span>
+            <Image className='w-1/6' id="logo" src={logo} alt="" />
         </Link>
         
         {/* <Link className='text-xl ml-20' to='/events'>Events</Link> */}
