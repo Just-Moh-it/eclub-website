@@ -28,15 +28,17 @@ function StartupSprint2023() {
   
           <div className="shadow-lg border rounded-lg p-6 mb-10 lg:grid lg:grid-cols-2 ">
             
-              <div className="lg:mx-auto">
-                  <h2 className='text-3xl font-semibold'> ✅ Register</h2>
-                  <CountdownTimer></CountdownTimer>
+              <div className="lg:w-3/4 lg:float-left">
+                  <h2 className='text-3xl font-semibold'> 🚫 Registration Closed</h2>
+                  <Link href='' className="btn btn-accent btn-block mt-10">Discord</Link>
+                  <Link href='' className="btn btn-info btn-block mt-10">Resources</Link>
+                  {/* <CountdownTimer></CountdownTimer>
                   <div className='mt-4 text-xl text-error'>Note: If you have a team, ALL members should register.</div>
                   <Image className='lg:w-1/2' src={applicationQR}></Image>
                   <Link className="btn btn-secondary btn-block mt-10 lg:w-1/2" target={'_blank'} href='https://forms.gle/82jP5SR23r8Aze3p8' >
                     <BsLink45Deg className='text-2xl'></BsLink45Deg>
                     Register
-                  </Link>
+                  </Link> */}
               </div>
 
               <div className="lg:w-1/2 mt-10 lg:mt-0">
