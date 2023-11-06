@@ -103,6 +103,8 @@ function StartupSprint2023() {
             Saturday November 11th{' '}
             <br />
             Take a break from entreprenuering and come join us to watch the Social Network.
+            <br />
+            <span className="text-error text-xl font-bold">8:00PM - 10:00PM</span>
           </p>
           <br />
 
