@@ -1,5 +1,5 @@
 
-import {BsFillExclamationOctagonFill, BsPeopleFill, BsFileCodeFill, BsLink45Deg, BsFillInfoCircleFill, BsPersonFill} from 'react-icons/bs'
+import {BsFillExclamationOctagonFill, BsPeopleFill, BsFileCodeFill, BsLink45Deg, BsFillInfoCircleFill, BsPersonFill, BsDiscord, BsStack} from 'react-icons/bs'
 import Image from 'next/image'
 import sponsorsImg from './sponsors.png'
 import Link from 'next/link'
@@ -30,8 +30,15 @@ function StartupSprint2023() {
             
               <div className="lg:w-3/4 lg:float-left">
                   <h2 className='text-3xl font-semibold'> 🚫 Registration Closed</h2>
-                  <Link href='' className="btn btn-accent btn-block mt-10">Discord</Link>
-                  <Link href='' className="btn btn-info btn-block mt-10">Resources</Link>
+                  <a href='https://discord.gg/SyWbPEExGW' target='_blank' className="btn btn-accent btn-block mt-10">
+                    <BsDiscord className='text-3xl'></BsDiscord>
+                    Discord
+                  </a>
+                  <a href='https://eclubvt.notion.site/Startup-Sprint-Resources-ac1cb75278cc4e8dbdefcce85c9ce2a2'
+                    target='_blank' className="btn btn-info btn-block mt-10">
+                      <BsStack className='text-3xl'></BsStack>
+                      Resources
+                  </a>
                   {/* <CountdownTimer></CountdownTimer>
                   <div className='mt-4 text-xl text-error'>Note: If you have a team, ALL members should register.</div>
                   <Image className='lg:w-1/2' src={applicationQR}></Image>
@@ -53,12 +60,26 @@ function StartupSprint2023() {
                   <p className='text-xl'>Wednesday November 8th <span className="text-primary font-bold">6PM to 8PM</span> at the Apex Center</p>
                   <br />
 
-                  <h3 className="text-2xl font-semibold text-secondary">Meet Community Labs</h3>
-                  <p className='text-xl'>Friday November 10th <span className="text-error font-bold">12:00PM - 3:00PM</span></p>
+                  <h3 className="text-2xl font-semibold text-secondary">Community Labs - Arweave Support</h3>
+                  <p className='text-xl'>Friday November 10th <span className="text-error font-bold">12:00PM - 3:00PM</span>
+                  <br />
+                    Meet some of the team members at Community Labs to ask questions about the Arweave network.
+                  </p>
                   <br />
 
                   <h3 className="text-2xl font-semibold text-secondary">Business Model Workshop</h3>
-                  <p className='text-xl'>Friday November 10th <span className="text-error font-bold">4:00PM - 6:00PM</span></p>
+                  <p className='text-xl'>Friday November 10th <span className="text-error font-bold">4:00PM - 6:00PM</span>
+                  <br />
+                    Learn how to craft a business model in our business model workshop.
+                  </p>
+                  <br />
+
+
+                  <h3 className="text-2xl font-semibold text-secondary">Movie Night</h3>
+                  <p className='text-xl'>Friday November 10th <span className="text-error font-bold">8:00PM - 10:00PM</span>
+                  <br />
+                    Take a break from entrepreneuring and join us in watching the Social Network at the Apex Center.
+                  </p>
                   <br />
 
                   <h3 className="text-2xl font-semibold text-secondary">MVP Submission Deadline:</h3>
