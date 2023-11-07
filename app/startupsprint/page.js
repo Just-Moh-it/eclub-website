@@ -55,6 +55,15 @@ function StartupSprint2023() {
               <BsStack className="text-3xl" />
               Resources
             </a>
+            <a
+              href="https://eclubvt.notion.site/Mentor-Portal-fec6e0ee2360453390a8324741891300"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-block btn-secondary mt-10"
+            >
+              <BsPeopleFill className="text-3xl" />
+              Mentor Portal
+            </a>
           </div>
         </div>
 
