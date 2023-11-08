@@ -8,6 +8,7 @@ import {
   BsDiscord,
   BsStack,
 } from 'react-icons/bs';
+import {HiUserGroup} from 'react-icons/hi'
 import { PiCoinVerticalDuotone } from 'react-icons/pi';
 import Image from 'next/image';
 import sponsorsImg from './sponsors.png';
@@ -59,10 +60,19 @@ function StartupSprint2023() {
               href="https://eclubvt.notion.site/Mentor-Portal-fec6e0ee2360453390a8324741891300"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn btn-block btn-secondary mt-10"
+              className="btn btn-block btn-primary text-black mt-10"
             >
               <BsPeopleFill className="text-3xl" />
               Mentor Portal
+            </a>
+            <a
+              href="https://forms.gle/w73qwZefEFwXjiZj8"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-block btn-secondary text-black mt-10"
+            >
+              <HiUserGroup className="text-3xl" />
+              Leadership Interest Form
             </a>
           </div>
         </div>
