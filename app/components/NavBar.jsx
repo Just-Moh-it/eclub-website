@@ -36,7 +36,7 @@ function NavBar() {
   return (
     <div className='navbar mb-10 p-2 pb-6 w-11/12 mx-auto'>
         <Link href='/'>
-            <Image className='w-1/6' id="logo" src={logo} alt="" />
+            <Image className='w-1/3' id="logo" src={logo} alt="" />
         </Link>
         
         {/* <Link className='text-xl ml-20' to='/events'>Events</Link> */}

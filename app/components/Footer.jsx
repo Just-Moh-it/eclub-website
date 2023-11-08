@@ -26,17 +26,17 @@ const Footer = () => {
           </div>
         </div>
         <div className="mt-10"></div>
-        {/* <div>
+        <div>
           <a
-            href="[Insert Discord Link]"
+            href="https://discord.gg/sDdmV877xE"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-purple-500 text-white p-4 rounded-full font-semibold hover:bg-purple-600 transition duration-300"
           >
             <FaDiscord className="inline-block mr-2 text-xl" />
-            Join Discord
+            Join Our Discord
           </a>
-        </div> */}
+        </div>
         <div className="mb-10"></div>
       </div>
     </div>
