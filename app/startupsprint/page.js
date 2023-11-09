@@ -7,6 +7,7 @@ import {
   BsPersonFill,
   BsDiscord,
   BsStack,
+  BsFillFileSlidesFill
 } from 'react-icons/bs';
 import {HiUserGroup} from 'react-icons/hi'
 import { PiCoinVerticalDuotone } from 'react-icons/pi';
@@ -15,6 +16,7 @@ import sponsorsImg from './sponsors.png';
 import Link from 'next/link';
 import applicationQR from './application_qr_code.png';
 import CountdownTimer from './CountdownTimer';
+// import slides from './startup_sprint_slides.pdf'
 
 function StartupSprint2023() {
   return (
@@ -38,6 +40,14 @@ function StartupSprint2023() {
         <div className='lg:w-10/12'>
           <div className="w-full">
             <h2 className="text-3xl font-semibold">🚫 Registration Closed</h2>
+            <a
+              href={'../../../startup_sprint_slides.pdf'}
+              target="_blank"
+              className="btn btn-outline btn-block mt-10"
+            >
+              <BsFillFileSlidesFill className="text-3xl" />
+              Opening Ceremony Slides
+            </a>
             <a
               href="https://discord.gg/SyWbPEExGW"
               target="_blank"
