@@ -49,6 +49,14 @@ function StartupSprint2023() {
               Opening Ceremony Slides
             </a>
             <a
+              href={'../../../business_model_slides.pdf'}
+              target="_blank"
+              className="btn btn-outline btn-primary btn-block mt-10"
+            >
+              <BsFillFileSlidesFill className="text-3xl" />
+              Business Model Workshop Slides
+            </a>
+            <a
               href="https://discord.gg/SyWbPEExGW"
               target="_blank"
               rel="noopener noreferrer"
