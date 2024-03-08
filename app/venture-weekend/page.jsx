@@ -43,6 +43,8 @@ function VentureWeekend() {
         and demos where students will present their startups and the progress they've been making.
       </p>
 
+      <h3 className="text-xl text-secondary font-bold my-10">Friday April 19th - Sunday April 21st</h3>
+
       <h2 className="text-xl text-secondary font-bold">Startup Demos</h2>
       <p className="text-lg mb-8 lg:w-1/2">
         Meet the Virginia Tech students who are building innovative startups and disrupting markets.
@@ -61,7 +63,7 @@ function VentureWeekend() {
                 <div key={index} className='my-10 mx-auto w-fit border border-accent rounded-lg p-4 lg:w-11/12'>
                     <h2 className='text-secondary text-lg font-bold'>{workshop.title}</h2>
                     <div className="lg:flex">
-                        <Image className='lg:w-1/5' src={workshop.icon} alt="" />
+                        <img className='lg:w-1/6' src={workshop.icon} alt="" />
                         <p className='lg:w-1/2 lg:mt-8 lg:ml-2'>{workshop.description}</p>
                     </div>
                 </div>
