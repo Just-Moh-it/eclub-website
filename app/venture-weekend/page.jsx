@@ -62,8 +62,8 @@ function VentureWeekend() {
                 <>
                 <div key={index} className='my-10 mx-auto w-fit border border-accent rounded-lg p-4 lg:w-11/12'>
                     <h2 className='text-secondary text-lg font-bold'>{workshop.title}</h2>
-                    <div className="lg:flex">
-                        <img className='lg:w-1/6' src={workshop.icon} alt="" />
+                    <div className="lg:flex lg:items-center lg:align-middle">
+                        <Image className='lg:w-[100px] lg:h-[100px]' src={workshop.icon} alt="" />
                         <p className='lg:w-1/2 lg:mt-8 lg:ml-2'>{workshop.description}</p>
                     </div>
                 </div>
