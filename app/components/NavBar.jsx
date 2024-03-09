@@ -35,14 +35,16 @@ function NavBar() {
   } else {
   return (
     <div className='navbar mb-10 p-2 pb-6 w-11/12 mx-auto'>
+
         <Link href='/'>
             <Image className='w-1/3' id="logo" src={logo} alt="" />
         </Link>
-        
-        {/* <Link className='text-xl ml-20' to='/events'>Events</Link> */}
-        <Link className='text-xl ml-20' href='/leadership'>Leadership</Link>
-        <Link className='text-xl ml-20' href='/events'>Events</Link>
-        <Link className='text-xl ml-20 text-secondary font-semibold' href='/startupsprint'>Startup Sprint</Link>
+
+        <div className="lg:float-right">
+          <Link className='text-xl ml-20' href='/leadership'>Leadership</Link>
+          <Link className='text-xl ml-20' href='/events'>Events</Link>
+          <Link className='text-xl ml-20 text-secondary font-semibold' href='/venture-weekend'>Venture Weekend</Link>
+        </div>
     </div>
   ) 
   }

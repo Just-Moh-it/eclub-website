@@ -37,7 +37,7 @@ function VentureWeekend() {
       <br />
 
       <p className="text-lg mb-8 lg:w-1/2">
-        Virginia Tech's Entrepreneurship Club is hosting a Venture Weekend on March 30th and 31st. 
+        Virginia Tech's Entrepreneurship Club is hosting a Venture Weekend from April 19th to the 21st. 
         This event is open to all students and will be a great opportunity to learn about entrepreneurship and 
         meet other students interested in startups. Venture Weekend will feature a series of workshops, activities,
         and demos where students will present their startups and the progress they've been making.
