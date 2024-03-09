@@ -18,36 +18,24 @@ function LeadershipPage() {
 
   const leadershipData = [
     {
-      headshot: sam_radocha,
-      name: "Samuel Radocha",
+      headshot: ebenezer_zergabachew,
+      name: "Ebenezer Zergabachew",
       title: "President",
-      linkedin: "https://www.linkedin.com/in/samuel-radocha/"
-    },{
+      linkedin: "https://www.linkedin.com/in/ebenezer-zergabachew"
+    },
+    {
+      headshot: jeremiah_hohn,
+      name: "Jeremiah Hohn",
+      title: "Vice President",
+      linkedin: "https://www.linkedin.com/in/jeremiahhohn/"
+    },
+    {
       headshot: brody_emery,
       name: "Brody Emery",
       title: "Vice President",
       linkedin: "https://www.linkedin.com/in/brody-emery-88539321b/"
-    },{
-      headshot: ebenezer_zergabachew,
-      name: "Ebenezer Zergabachew",
-      title: "Head of Technology",
-      linkedin: "https://www.linkedin.com/in/ebenezer-zergabachew"
-    },{
-      headshot: henry_sours,
-      name: "Henry Sours",
-      title: "Marketing Director",
-      linkedin: "https://www.linkedin.com/in/henrysours87/"
-    },{
-      headshot: jeremiah_hohn,
-      name: "Jeremiah Hohn",
-      title: "Junior Marketing Director",
-      linkedin: "https://www.linkedin.com/in/jeremiahhohn/"
-    },{
-      headshot: sid,
-      name: "Siddarth Ashok",
-      title: "Project Manager",
-      linkedin: "https://www.linkedin.com/in/siddarth-ashok/"
-    },{
+    },
+    {
       headshot: mason_butler,
       name: "Mason Butler",
       title: "Videographer / Photographer",
