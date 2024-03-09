@@ -4,6 +4,7 @@ import uxIcon from './ux.png'
 import codeIcon from './code.png'
 import marketing from './marketing.png'
 import pitching from './pitching.png'
+import vwFlyer from '../events/venture-weekend.png'
 
 const workshops = [
     {
@@ -33,25 +34,39 @@ function VentureWeekend() {
     <div>
       <h1 className="text-4xl font-bold mb-4">Venture Weekend</h1>
 
-      <h2 className='text-xl font-bold text-secondary'>Meet students building startups, level up your skillset, win prizes</h2>
-      <br />
 
-      <p className="text-lg mb-8 lg:w-1/2">
-        Virginia Tech's Entrepreneurship Club is hosting a Venture Weekend from April 19th to the 21st. 
-        This event is open to all students and will be a great opportunity to learn about entrepreneurship and 
-        meet other students interested in startups. Venture Weekend will feature a series of workshops, activities,
-        and demos where students will present their startups and the progress they've been making.
-      </p>
+      <div className="lg:grid lg:grid-cols-2">
 
-      <h3 className="text-xl text-secondary font-bold my-10">Friday April 19th - Sunday April 21st</h3>
+        <div>
+          <h2 className='text-xl font-bold text-secondary'>Meet students building startups, level up your skillset, win prizes</h2>
+          <br />
+          <p className="text-lg mb-8">
+            Virginia Tech's Entrepreneurship Club is hosting a Venture Weekend from April 19th to the 21st. 
+            This event is open to all students and will be a great opportunity to learn about entrepreneurship and 
+            meet other students interested in startups. Venture Weekend will feature a series of workshops, activities,
+            and demos where students will present their startups and the progress they've been making.
+          </p>
 
-      <h2 className="text-xl text-secondary font-bold">Startup Demos</h2>
-      <p className="text-lg mb-8 lg:w-1/2">
-        Meet the Virginia Tech students who are building innovative startups and disrupting markets.
-      </p>
+          <h3 className="text-xl text-secondary font-bold my-10">Friday April 19th - Sunday April 21st</h3>
+
+          <h2 className="text-xl text-secondary font-bold">Startup Demos</h2>
+          <p className="text-lg mb-8">
+            Meet the Virginia Tech students who are building innovative startups and disrupting markets.
+          </p>
+            
+            <a href='https://forms.gle/wL4aNiZv875HszhUA' target='_blank' className="btn-block btn btn-secondary float-right mt-10 mb-20">Register</a>
+        </div>
+
+        <div className=''>
+          <div className='lg:w-4/6 float-right'>
+            <Image className='float-right mb-10' src={vwFlyer}></Image>
+          </div>
+        </div>
+      </div>
+
 
       
-      <h2 className="text-xl text-secondary font-bold">Workshops</h2>
+      <h2 className="text-xl text-secondary font-bold mt-20 lg:mt-0">Workshops</h2>
 
 
 

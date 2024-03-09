@@ -25,7 +25,7 @@ function NavBar() {
                   <Link className='font-semibold' href='/events'>Events</Link>
                 </li>
                 <li>
-                  <Link className='text-secondary font-semibold ' href='/startupsprint'>Startup Sprint</Link>
+                  <Link className='text-secondary font-semibold ' href='/venture-weekend'>Venture Weekend</Link>
                 </li>
             </ul>
         </details>
