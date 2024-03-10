@@ -67,9 +67,6 @@ function VentureWeekend() {
 
       
       <h2 className="text-xl text-secondary font-bold mt-20 lg:mt-0">Workshops</h2>
-
-
-
       <div className="lg:grid lg:grid-cols-2">
 
         {workshops.map((workshop, index) => {
