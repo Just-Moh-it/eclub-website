@@ -4,7 +4,7 @@ import uxIcon from './ux.png'
 import codeIcon from './code.png'
 import marketing from './marketing.png'
 import pitching from './pitching.png'
-import vwFlyer from '../events/venture-weekend.png'
+import ventureWeekendFlyer from '../events/venture-weekend.png'
 
 const workshops = [
     {
@@ -59,7 +59,7 @@ function VentureWeekend() {
 
         <div className=''>
           <div className='lg:w-4/6 float-right'>
-            <Image className='float-right mb-10' src={vwFlyer}></Image>
+            <Image className='float-right mb-10' src={ventureWeekendFlyer}></Image>
           </div>
         </div>
       </div>
