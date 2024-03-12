@@ -67,18 +67,18 @@ function VentureWeekend() {
 
       
       <h2 className="text-xl text-secondary font-bold mt-20 lg:mt-0">Workshops</h2>
+      
       <div className="lg:grid lg:grid-cols-2">
-
         {workshops.map((workshop, index) => {
             return(
                 <>
-                <div key={index} className='my-10 mx-auto w-fit border border-accent rounded-lg p-4 lg:w-11/12'>
-                    <h2 className='text-secondary text-lg font-bold'>{workshop.title}</h2>
-                    <div className="lg:flex lg:items-center lg:align-middle">
-                        <Image className='lg:w-[100px] lg:h-[100px]' src={workshop.icon} alt="" />
-                        <p className='lg:w-1/2 lg:mt-8 lg:ml-2'>{workshop.description}</p>
-                    </div>
-                </div>
+                  <div key={index} className='my-10 mx-auto w-fit border border-accent rounded-lg p-4 lg:w-11/12'>
+                      <h2 className='text-secondary text-lg font-bold'>{workshop.title}</h2>
+                      <div className="lg:flex lg:items-center lg:align-middle">
+                          <Image className='lg:w-[100px] lg:h-[100px]' src={workshop.icon} alt="" />
+                          <p className='lg:w-1/2 lg:mt-8 lg:ml-2'>{workshop.description}</p>
+                      </div>
+                  </div>
                 </>
             )
         })}
