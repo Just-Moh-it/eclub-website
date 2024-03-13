@@ -9,7 +9,6 @@ function page() {
     <div>
       <h1 className="text-3xl font-bold text-secondary">Upcoming Events</h1>
       <Image className='lg:w-1/3 mt-10' src={venture_weekend}></Image>
-      
 
         <h2 className="text-3xl font-bold text-primary mt-20">Previous Events</h2>
         <div className="lg:grid lg:grid-cols-3 mt-10">
