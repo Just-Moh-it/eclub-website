@@ -25,7 +25,7 @@ function NavBar() {
                   <Link className='font-semibold' href='/events'>Events</Link>
                 </li>
                 <li>
-                  <Link className='text-secondary font-semibold ' href='/venture-weekend'>Venture Weekend</Link>
+                  <Link className='text-secondary font-semibold ' href='/vw'>Venture Weekend</Link>
                 </li>
             </ul>
         </details>
@@ -43,7 +43,7 @@ function NavBar() {
         <div className="lg:float-right">
           <Link className='text-xl ml-20' href='/leadership'>Leadership</Link>
           <Link className='text-xl ml-20' href='/events'>Events</Link>
-          <Link className='text-xl ml-20 text-secondary font-semibold' href='/venture-weekend'>Venture Weekend</Link>
+          <Link className='text-xl ml-20 text-secondary font-semibold' href='/vw'>Venture Weekend</Link>
         </div>
     </div>
   ) 
