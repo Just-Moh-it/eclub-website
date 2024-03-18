@@ -3,8 +3,21 @@ import logo from '../assets/logo.png'
 import Link from 'next/link';
 import {isMobile} from 'react-device-detect';
 import Image from 'next/image';
+import { useEffect } from 'react';
+import { usePathname } from 'next/navigation';
 
 function NavBar() {
+
+  const pathname = usePathname()
+
+  useEffect(() => {
+    
+    if(pathname != '/vw'){
+      const html = document.querySelector('html')
+      html.setAttribute('data-theme', 'dark')
+    }
+  }, [pathname])
+
   if(isMobile){
     return(
       <div className='navbar w-full mb-10'>

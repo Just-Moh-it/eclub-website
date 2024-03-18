@@ -1,10 +1,11 @@
-import React from 'react'
+'use client'
+import React, { useEffect } from 'react'
 import Image from 'next/image';
 import uxIcon from './ux.png'
 import codeIcon from './code.png'
 import marketing from './marketing.png'
 import pitching from './pitching.png'
-import ventureWeekendFlyer from '../events/venture-weekend.png'
+import ventureWeekendFlyer from '../events/venture-weekend.jpg'
 
 const workshops = [
     {
@@ -30,15 +31,21 @@ const workshops = [
 ]
 
 function VentureWeekend() {
+
+  useEffect(() => {
+    const html = document.querySelector('html')
+    html.setAttribute('data-theme', 'synthwave')
+  }, [])
+
   return (
     <div>
-      <h1 className="text-4xl font-bold mb-4">Venture Weekend</h1>
+      <h1 className="text-4xl font-bold mb-4 text-purple-500">Venture Weekend</h1>
 
 
       <div className="lg:grid lg:grid-cols-2">
 
         <div>
-          <h2 className='text-xl font-bold text-secondary'>Meet students building startups, level up your skillset, win prizes</h2>
+          <h2 className='text-xl font-bold text-[#D946EF]'>Meet students building startups, level up your skillset, win prizes</h2>
           <br />
           <p className="text-lg mb-8">
             Virginia Tech's Entrepreneurship Club is hosting a Venture Weekend from April 19th to the 21st. 
@@ -47,14 +54,14 @@ function VentureWeekend() {
             and demos where students will present their startups and the progress they've been making.
           </p>
 
-          <h3 className="text-xl text-secondary font-bold my-10">Friday April 19th - Sunday April 21st</h3>
+          <h3 className="text-xl text-[#F59E0B] font-bold my-10">Friday April 19th - Sunday April 21st</h3>
 
-          <h2 className="text-xl text-secondary font-bold">Startup Demos</h2>
+          <h2 className="text-xl text-[#FDBA74] font-bold">Startup Demos</h2>
           <p className="text-lg mb-8">
             Meet the Virginia Tech students who are building innovative startups and disrupting markets.
           </p>
             
-            <a href='https://forms.gle/wL4aNiZv875HszhUA' target='_blank' className="btn-block btn btn-secondary float-right mt-10 mb-20">Register</a>
+            <a href='https://forms.gle/wL4aNiZv875HszhUA' target='_blank' className="btn-block btn text-black bg-gradient-to-r from-[#F97316] to-purple-500 float-right mt-10 mb-20">Register</a>
         </div>
 
         <div className=''>
@@ -70,10 +77,20 @@ function VentureWeekend() {
       
       <div className="lg:grid lg:grid-cols-2">
         {workshops.map((workshop, index) => {
+          let color;
+          if(index == 0){
+            color = 'text-[#D946EF]'
+          } else if (index == 1){
+            color = 'text-[#F59E0B]'
+          } else if (index == 2){
+            color = 'text-[#FDBA74]'
+          } else if (index == 3){
+            color = 'text-[#F97316]'
+          }
             return(
                 <>
                   <div key={index} className='my-10 mx-auto w-fit border border-accent rounded-lg p-4 lg:w-11/12'>
-                      <h2 className='text-secondary text-lg font-bold'>{workshop.title}</h2>
+                      <h2 className={`${color} text-lg font-bold`}>{workshop.title}</h2>
                       <div className="lg:flex lg:items-center lg:align-middle">
                           <Image className='lg:w-[100px] lg:h-[100px]' src={workshop.icon} alt="" />
                           <p className='lg:w-1/2 lg:mt-8 lg:ml-2'>{workshop.description}</p>
